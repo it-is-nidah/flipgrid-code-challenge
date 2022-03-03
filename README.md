@@ -1,7 +1,7 @@
 # flipgrid code challenge
  given a mockup, my task is to create a sign up form where a user can register for a service. The form contains user first name, email addrress and password fields.
 
- - The page should dynamically adapt to screen size.
+ - The page should dynamically adapt to screen size.(media queries)
 
  ## View 1 - Sign Up page ##
 this page includes; 
