@@ -5,29 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flipgrid</title>
+    <link rel="stylesheet" href="/pages/styles.css">
 </head>
-<body class="container">
-    <section class="formHeader">
-        <head>Let's <br> Sign Up</head>
-    <p class="helpText">Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
-    </section>
-    <form action="" method="post" id="signupForm" class="signupForm">
-        <div>
-           <label for="firstName">First Name</label>
-           <input required type="text" id="firstName" name="firstName">
-        </div>
-        <div>
-           <label for="email">Email Address</label>
-           <input required type="email" name="email" id="email">
-        </div>
-        <div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-        </div>
-        <div>
-            <input type="submit" value="Sign Up">
-        </div>
-     </form>
+<body>
+    <div class="container">
+        <form action="" class="form" id="signupForm">
+            <section class="form__title">
+                <p class="form__title form__title-heading">Let's <br> <strong>Sign Up</strong></p>
+                <p>Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
+            </section>
+            <div class="form__input-group">
+                
+                <label for="firstName" class="form__input-group">First Name
+                    <input id="firstName" type="text" class="form__input">
+                </label>
+            </div>
+            <div class="form__input-group">
+                <label for="email" class="form__input-group">Email Address
+                <input required type="email" name="email" id="email" class="form__input">
+                </label>
+             </div>
+            <div class="form__input-group">
+                <label for="password" class="form__input-group">Password
+                <input type="password" class="form__input">
+                </label>
+            </div>
+            <button type="submit" class="form__button">
+                <a href="/pages/confirmationView.html">Sign Up</a>
+                </button>
+        </form>
+    </div>
+
+    <script src="/pages/main.js"></script>
+
+
 </body>
 </html>
