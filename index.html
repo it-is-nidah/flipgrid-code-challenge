@@ -16,6 +16,10 @@
             localStorage.setItem("val", email);
             return false;
         }
+
+//         function isEmail(email) {
+// 	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+// }
     </script>
 </head>
 <body>
@@ -23,11 +27,11 @@
         <form action="/pages/confirmationView.html" class="form" id="signupForm">
             <section class="form__title">
                 <p class="form__title form__title-heading">Let's <br> <strong>Sign Up</strong></p>
-                <p>Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
+                <p class="form__title-heading-p">Use the form below to sign up for this super awesome service. You're only a few steps away!</p>
             </section>
             <div class="form__input-group">
                 <label for="firstName" class="form__input-group">First Name
-                    <input id="firstName" type="text" class="form__input">
+                    <input required id="firstName" type="text" class="form__input">
                 </label>
             </div>
             <div class="form__input-group">

@@ -21,3 +21,21 @@ Confirmation contains information with their first name and email address.
 There is a 'Sign In' button on this page (does not require functionality now).
 
 # Task 3: Project description #
+I used HTML, CSS and JS for this project. 
+for the first task, i created a HTML file, using form element providing fields for input - First Name, Email Address and Password.
+the user has to input their first name and email, password being optional (in this particular case).
+
+This form has a sign up button, that has some animation/transition. Onclick, the button returns the confirmation view, returning the user first name and email.
+
+I created the second form, the confirmation form view, reusing form comonent.
+this view dispalys what the user entered as their first name and their email address.
+
+The sign in button for as an example in this page takes the user back to the index.html page(view 1; sign up form).
+
+I created CSS file to style the html pages, I used the B.E.M (Block Element Modifier) naming convention/methodology to achieve reusability of components.
+
+I used localStorage Javasript property to dispay the user input from the sign up page (view 1) in the view 2, the confirmation view.
+
+I implemented media query and other css properties to ensure the html pages dynamically adapt to screen size.
+
+I used basic css attributes to implement form input validation.
